@@ -1,0 +1,16 @@
+.reviews-item {
+  &__name {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+  }
+  &__exprerience {
+    text-align: center;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+  }
+}

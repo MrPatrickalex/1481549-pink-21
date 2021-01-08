@@ -1,0 +1,12 @@
+.page-header {
+  background-color: $maincolor;
+  &__wrapper {
+    width: $mobilewidth;
+    margin: 0 auto;
+    border: 1px solid red;
+  }
+  &__logo-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}
