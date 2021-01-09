@@ -1,0 +1,10 @@
+.advantages-header {
+  font-weight: 300;
+  font-family: $opensans;
+  font-size: 24px;
+  text-align: center;
+}
+
+.advantages-header + .advantages-header {
+  margin-top: 39px;
+}

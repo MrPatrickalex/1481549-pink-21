@@ -1,1 +1,27 @@
-// Начните писать стили здесь
+@import "./shared/reset.scss";
+@import "./shared/fonts.scss";
+@import "./shared/vars.scss";
+@import "./shared/hidden.scss";
+@import "./blocks/page-body.scss";
+@import "./blocks/page-main.scss";
+@import "./blocks/page-header/page-header.scss";
+// @import "./blocks/page-header/header-logo.scss";
+@import "./blocks/page-header/main-nav.scss";
+@import "./blocks/page-preview/page-preview.scss";
+@import "./blocks/page-preview/preview-banner.scss";
+@import "./blocks/page-preview/preview-download.scss";
+@import "./blocks/page-advantages/page-advantages.scss";
+@import "./blocks/page-advantages/advantages-header.scss";
+@import "./blocks/page-advantages/advantages-item.scss";
+@import "./blocks/page-reviews/page-reviews.scss";
+@import "./blocks/page-reviews/reviews-item.scss";
+@import "./blocks/page-prices/page-prices.scss";
+@import "./blocks/page-prices/price-column.scss";
+@import "./blocks/page-contacts/page-contacts.scss";
+@import "./blocks/page-contacts/contacts-header.scss";
+@import "./blocks/page-contacts/contacts-item.scss";
+@import "./blocks/page-contacts/contacts-map.scss";
+@import "./blocks/page-footer/page-footer.scss";
+@import "./blocks/page-footer/footer-socials.scss";
+@import "./blocks/page-footer/footer-about.scss";
+@import "./blocks/page-footer/footer-logo.scss";

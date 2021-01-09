@@ -1,0 +1,37 @@
+.main-nav {
+  a {
+    color: $colorwhite;
+    text-decoration: none;
+    font-family: $opensans;
+    text-transform: uppercase;
+    font-weight: bold;
+    // font-size: 18px;
+  }
+
+  &__wrapper {
+    width: 320px;
+    margin: 0 auto;
+    border: 1px solid greenyellow;
+  }
+
+  &__item {
+    text-align: center;
+    border: 1px solid orange;
+  }
+
+  &__item:nth-child(1) {
+    padding: 25px 117px 25px 116px;
+  }
+
+  &__item:nth-child(2) {
+    padding: 25px 93px 25px 93px;
+  }
+
+  &__item:nth-child(3) {
+    padding: 25px 117px 25px 116px;
+  }
+
+  &__item:nth-child(4) {
+    padding: 25px 88px 25px 87px;
+  }
+}
