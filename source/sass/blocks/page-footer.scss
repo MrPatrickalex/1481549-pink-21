@@ -1,0 +1,22 @@
+.page-footer {
+  &__wrapper {
+    width: $mobilewidth;
+    margin: 0 auto;
+  }
+}
+
+.footer-about {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.footer-socials {
+  display: flex;
+  justify-content: center;
+}
