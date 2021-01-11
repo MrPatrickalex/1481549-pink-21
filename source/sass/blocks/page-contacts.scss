@@ -4,3 +4,35 @@
     margin: 0 auto;
   }
 }
+
+.contacts-header {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.contacts-item {
+  &__header {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  &__text {
+    color: $pinkcolor;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+  }
+}
+
+.contacts-map {
+  // width: 320px;
+  height: 200px;
+  background-color: $pinkcolor;
+}

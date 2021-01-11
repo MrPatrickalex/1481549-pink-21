@@ -10,3 +10,29 @@
     margin-top: 20px;
   }
 }
+
+.advantages-header {
+  font-weight: 300;
+  font-family: $opensans;
+  font-size: 24px;
+  text-align: center;
+}
+
+.advantages-header + .advantages-header {
+  margin-top: 39px;
+}
+
+.advantages-item {
+  &__header {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  &__text {
+    margin-top: 24px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 24px;
+  }
+}
