@@ -14,7 +14,7 @@
     padding-right: 20px;
     padding-top: 23px;
     padding-bottom: 23px;
-    border-bottom: 1px solid rgba($colorblack, 30%)
+    border-bottom: 1px solid rgba($colorblack, 30%);
   }
 
 
@@ -23,7 +23,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    background-image: url('../../img/back-desktop.jpg');
+    background-image: url("../../img/back-desktop.jpg");
+
     &__wrapper {
       display: flex;
       justify-content: space-between;
@@ -80,13 +81,14 @@
     padding: 25px 88px 25px 87px;
   }
 
-   @media (min-width: $desktop-width) {
+  @media (min-width: $desktop-width) {
     &__link {
       color: $colorwhite;
       text-transform: none;
       font-weight: 400;
       font-size: 18px;
     }
+
     &__wrapper {
       padding-top: 48px;
       padding-bottom: 48px;
@@ -103,33 +105,31 @@
     }
 
     &__item:nth-child(1) {
-      padding: 0px 78px 0px 0px;
+      padding-top: 78px;
     }
 
     &__item:nth-child(2) {
-      padding: 0px 79px 0px 0px;
+      padding-top: 79px;
     }
 
     &__item:nth-child(3) {
-      padding: 0px 79px 0px 0px;
+      padding-top: 79px;
     }
 
-    &__item:nth-child(4) {
-      padding: 0px 0px 0px 0px;
-    }
+    // &__item:nth-child(4) {
+    //   padding: 0px;
+    // }
   }
 }
 
 .page-preview {
   // background-color: lighten($maincolor, 10%);
 
-  background: url("../../img/hand-mobile.png") no-repeat 75% 115px,
-              url("../../img/back-mobile.jpg") repeat-x 0 0;
+  background: url("../../img/hand-mobile.png") no-repeat 75% 115px, url("../../img/back-mobile.jpg") repeat-x 0 0;
   // border: 12px solid orange;
 
   @media (min-width: $tablet-width) {
-    background: url("../../img/hand.png") no-repeat 75% 115px,
-              url("../../img/back-desktop.jpg") no-repeat 0 0;
+    background: url("../../img/hand.png") no-repeat 75% 115px, url("../../img/back-desktop.jpg") no-repeat 0 0;
 
     &__wrapper {
       // border: 12px solid orange;
@@ -176,10 +176,12 @@
 
   @media (min-width: $tablet-width) {
     text-align: center;
+
     &--block {
       padding-top: 114px;
       padding-bottom: 51px;
     }
+
     width: 190px;
     font-size: 40px;
     margin: 0 0;
@@ -187,10 +189,12 @@
 
   @media (min-width: $desktop-width) {
     text-align: center;
+
     &--block {
       padding-top: 114px;
       padding-bottom: 51px;
     }
+
     width: 190px;
     font-size: 40px;
   }
@@ -244,8 +248,8 @@
   }
 
   @media (min-width: $tablet-width) {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    // padding-top: 0px;
+    // padding-bottom: 0px;
 
     &--block {
       background-color: transparent;
@@ -263,8 +267,8 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding-top: 0px;
-    padding-bottom: 0px;
+    // padding-top: 0px;
+    // padding-bottom: 0px;
 
     &--block {
       background-color: transparent;
@@ -273,6 +277,5 @@
     &__wrapper {
       margin-bottom: 130px;
     }
-
   }
 }
